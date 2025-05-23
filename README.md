@@ -1,31 +1,40 @@
 # raw_inventory
 
-A Flutter inventory management project built following Clean Architecture principles.
+A Flutter inventory management app built with Clean Architecture principles for scalable and maintainable code.
+
+---
 
 ## Overview
 
-**raw_inventory** is a Flutter application designed to manage and track inventory efficiently. This project is structured using the Clean Architecture approach to ensure maintainability, scalability, and separation of concerns.
+**raw_inventory** is a Flutter application to manage inventory items. The project is structured with Clean Architecture, splitting code into presentation, domain, and data layers. This approach improves code clarity, testability, and future extensibility.
+
+---
 
 ## Features
 
-- Modular and testable codebase following Clean Architecture
-- Inventory item management (add, update, delete)
-- Clear separation between presentation, domain, and data layers
-- Easily extensible for future enhancements
+- Add, update, delete, and view inventory items
+- Clean Architecture design pattern
+- Modular codebase for maintainability
+- Easy to extend with new features or data sources
+
+---
+
+## Prerequisites
+
+Before you begin, ensure you have the following installed:
+
+- [Flutter SDK](https://docs.flutter.dev/get-started/install) (version 3.0.0 or above recommended)
+- [Git](https://git-scm.com/)
+- An emulator (Android Studio, iOS Simulator) or a physical device connected
+
+---
 
 ## Getting Started
 
-These instructions will help you set up the project locally.
+### 1. Clone the Repository
 
-### Prerequisites
-
-- [Flutter SDK](https://flutter.dev/docs/get-started/install) (version 3.0.0 or above recommended)
-- An IDE like [Visual Studio Code](https://code.visualstudio.com/) or [Android Studio](https://developer.android.com/studio)
-
-### Installation
-
-1. **Clone the repository**
+Open a terminal and run:
 
 ```bash
-git clone https://github.com/yourusername/raw_inventory.git
+git clone https://github.com/jitendravee/raw_inventory.git
 cd raw_inventory
