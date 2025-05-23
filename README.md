@@ -41,3 +41,7 @@ cd raw_inventory
 flutter pub get
 flutter build apk --release
 
+```
+### 2. Demo video
+https://drive.google.com/file/d/1riDPbri91_nzYtPYnRUYTo_ghVcTN-_1/view?usp=drive_link
+
