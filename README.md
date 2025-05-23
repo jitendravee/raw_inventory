@@ -38,3 +38,6 @@ Open a terminal and run:
 ```bash
 git clone https://github.com/jitendravee/raw_inventory.git
 cd raw_inventory
+flutter pub get
+flutter build apk --release
+
