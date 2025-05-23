@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Flutter: Launch with Java 17",
+        "request": "launch",
+        "type": "dart",
+        "program": "lib/main.dart",
+        "env": {
+          "JAVA_HOME": "/usr/lib/jvm/java-17-openjdk-amd64",
+          "PATH": "/usr/lib/jvm/java-17-openjdk-amd64/bin:${env:PATH}"
+        },
+        "toolArgs": [],
+        "args": []
+      }
+    ]
+  }
+  
