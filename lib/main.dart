@@ -40,7 +40,9 @@ void main() async {
   final logRepo =
       ManufacturingRepositoryImpl(ManufacturingLocalDatasource(logBox));
   final inventoryRepo = InventoryRepositoryImpl(
-      HiveInventoryDatasource(), SheetsInventoryDatasource(''));
+      HiveInventoryDatasource(),
+      SheetsInventoryDatasource(
+          'https://script.google.com/macros/s/AKfycbwFAb2cn9l147VxEigaURQQDWNkTFHCtWzU3IVAyMw0ioQT_ZsVun232rNKjWlUvkGu/exec'));
   final compositionRepo = CompositionRepositoryImpl(compositionBox);
 
   runApp(
